@@ -4,7 +4,7 @@ n - number of distinct data points
 p - denote the number of variables that are available
 
 e.q. ; Wage 
-12 variables; 3000 people
+3000 people; 12 variables
 n = 3000, p = 12
 
 (12 represents; age, sex, year ...)
@@ -28,7 +28,6 @@ e.q.;
 
 
 vectors are represented by a single column of values
-
 e.q.;
 
 xj = [  x1j
@@ -45,41 +44,39 @@ e.q.;2 Wage data - year
 
 can be written as
 
-**X** = [   x1T^
-            x2T^
-            .
-            .
-            .
-            xnT^
-                ]
+**X** = [  x1T^
+           x2T^
+           .
+           .
+           .
+           xnT^
+               ]
+
 ['note: T^ is a <superscript> for transpose']
 
 yi is to denote the ith observation of the variable
 on which we wish to make predictions, such as wage.
 
-y = [
-     y1
-     y2
-     .
-     .
-     .
-     yn
-    ]
+**y** = [ y1
+          y2
+          .
+          .
+          .
+          yn
+            ]
 
 vector length n will always be denoted with a lower case bold
 
-a = [
-        a1
-        a2
-         .
-         .
-         .
-         an
-           ]
+**a** = [  a1
+           a2
+           .
+           .
+           .
+           an
+             ]
 
-in the book
-vectors that are not of length *n* will be denoted in 
-lower normal font 
+in the book vectors that are not of 
+length *n* will be denoted in lower normal font 
 
 [∈ - is an element of]
 a ∈ R ; a is an element of real numbers
@@ -90,13 +87,12 @@ A ∈ R(r × s)^ ; indicates that an object is a r × s matrix
 
 Matrix Multiplication
 
-(i,j)th element of AB is computed by multiplying the ith row of A, and the corresponding
-element jth column of B.
+(i,j)th element of AB is computed by multiplying the ith row of A, and 
+the corresponding element jth column of B.
 (AB)ij = Σd^k=1 aik bkj. e.q.;
 
 A = [1 2    B = [5 6
      3 4]       7 8]
-
 
 
 AB =     [1 2   [5 6      [1 x 5 + 2 + 7   1 x 6 + 2 x 8               [19 22
@@ -105,3 +101,6 @@ AB =     [1 2   [5 6      [1 x 5 + 2 + 7   1 x 6 + 2 x 8               [19 22
 
 this operation produces an r × s matrix. 
 
+Symbols
+
+Ŷ  f̂  ƒ ε
